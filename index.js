@@ -6,8 +6,9 @@ var obj=document.getElementById("cid");
 obj.innerText="#123456";
 
 var btn=document.getElementById("btn1");
-function colorchange()
+function ck()
 {
-  document.getElementsByTagName("body")[0].style.backgroundColor="#12f456";
+  btn.innerText="wow man";
+  document.getElementById("bd").style.backgroundColor="#12f456";
 }
-btn.addEventListener(onclick,colorchange);
+btn.addEventListener(onclick,ck);
